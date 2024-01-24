@@ -1,0 +1,21 @@
+
+nav {
+    display: flex;
+    text-decoration: none;
+    background-color: lightgray;
+    list-style: none;
+}
+
+nav li {
+    margin: 10px;
+}
+
+.main-div{
+    background-color: lightgray;
+}
+
+.first-main-div{
+    background-color: whitesmoke;
+    margin-left: 15px;
+    margin-top: 30px;
+}
