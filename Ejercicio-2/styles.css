@@ -32,6 +32,7 @@ nav li a {
 
 .main-div{
     background-color: lightgray;
+    padding-bottom: 1em;
 }
 
 h2 {
@@ -41,6 +42,53 @@ h2 {
 
 .first-main-div{
     background-color: whitesmoke;
-    margin-left: 15px;
-    margin-top: 30px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.first-main-div h3 {
+    padding-top: 1em;
+    margin-left: 0.5em; 
+}
+
+.first-main-div p{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.second-main-div{
+    background-color: whitesmoke;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: -1em;
+}
+.second-main-div h3 {
+    padding-top: 1em;
+    margin-left: 0.5em; 
+}
+
+.second-main-div p{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.link-see-more {
+    margin-left: 0.5em;
+    padding-bottom: 0.5em;
+    display: inline-block;
+}
+
+a {
+    color: blue;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-top: 0.5em;
+}
+
+footer p {
+    margin-right: 1em;
 }
