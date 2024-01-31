@@ -20,11 +20,21 @@ body {
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
     color: red;
+    text-align: center;
 }
 
 img {
-    
+   float: right;
+   border-radius: 30%;
+   border: 5px solid red;
+   margin-right: 20px;
+   margin-left: 20px;
+   margin-bottom: 10px;
 }
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+  }
